@@ -1,0 +1,133 @@
+.header {
+    width: 100%;
+}
+
+.navbar {
+    height: 120px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo-icon {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+/* .logo-icon span {
+    display: none;
+} */
+
+.logo {
+    height: 100%;
+}
+
+.navbar-header {
+    display: none;
+    grid-template-columns: repeat(4, minmax(130px, 1fr));
+    align-items: center;
+    text-align: center;
+}
+
+.navbar__link {
+    color: var(--sec-grey);
+    transition: color .2s ease-in-out;
+}
+
+.navbar__link:hover {
+    color: var(--pri-black);
+}
+
+.menu-toggle, .bar {
+    display: block;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--pri-blue);
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle.active .bar {
+    width: 14px;
+}
+
+.menu-toggle .bar:first-child {
+    margin-right: initial;
+    width: 14px;
+}
+
+.menu-toggle .bar:last-child {
+    margin-left: initial;
+    width: 14px;
+}
+
+.menu-toggle.active .bar:first-child, .menu-toggle.active .bar:last-child {
+    width: 25px;
+}
+
+.menu-toggle:hover {
+    cursor: pointer;
+}
+
+.navbar-mobile {
+    position: fixed;
+    width: 95%;
+    text-align: end;
+    min-height: calc(100vh - 120px);
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity .2s cubic-bezier(.65, .05, .36, 1), -webkit-transform .2s cubic-bezier(.65, .05, .36, 1) .15s;
+}
+
+.navbar-mobile.active {
+    opacity: 1;
+    transition: opacity .2s cubic-bezier(.65, .05, .36, 1) .15s, -webkit-transform .2s cubic-bezier(.65, .05, .36, 1);
+}
+
+.navbar-mobile li {
+    opacity: 0;
+    line-height: 70px;
+}
+
+.navbar-mobile li:nth-child(1) {
+    transition: opacity .4s cubic-bezier(.65, .05, .36, 1) 45ms, -webkit-transform .4s cubic-bezier(.65, .05, .36, 1) 15ms;
+}
+
+.navbar-mobile li:nth-child(2) {
+    transition: opacity .5s cubic-bezier(.65, .05, .36, 1) .05s, -webkit-transform .5s cubic-bezier(.65, .05, .36, 1) .03s;
+}
+
+.navbar-mobile li:nth-child(3) {
+    transition: opacity .6s cubic-bezier(.65, .05, .36, 1) 75ms, -webkit-transform .6s cubic-bezier(.65, .05, .36, 1) 45ms;
+}
+
+.navbar-mobile li:nth-child(4) {
+    transition: opacity .7s cubic-bezier(.65, .05, .36, 1) .09s, -webkit-transform .7s cubic-bezier(.65, .05, .36, 1) .06s;
+}
+
+.navbar-mobile.active li {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 1024px) {
+    /* .logo-icon span {
+        display: block;
+    } */
+    .navbar-header {
+        display: grid;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    .navbar-mobile {
+        display: none;
+    }
+}
