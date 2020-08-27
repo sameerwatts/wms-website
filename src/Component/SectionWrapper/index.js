@@ -3,7 +3,7 @@ import './style.css';
 
 const SectionWrapper = (props) => {
     return (
-        <section className="sectionWrapper">
+        <section className={`sectionWrapper ${props.alignment ? props.alignment: ''}` }>
             {props.children}
         </section>
     );

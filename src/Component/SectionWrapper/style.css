@@ -5,3 +5,26 @@
     height: auto;
     margin: 0 auto;
 }
+
+.right-to-left {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "right right" "left left";
+}
+
+.left-to-right {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "left left" "right right";
+}
+
+@media only screen and (min-width: 1024px) {
+    .right-to-left {
+        grid-template-areas: "left right" "left right";
+    }
+    .left-to-right {
+        grid-template-areas: "left right" "left right";
+    }
+}

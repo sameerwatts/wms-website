@@ -80,6 +80,7 @@
 .navbar-mobile {
     position: fixed;
     width: 95%;
+    z-index: 1;
     text-align: end;
     min-height: calc(100vh - 120px);
     background-color: #fff;

@@ -1,0 +1,28 @@
+.imageSliderWrapper {
+    grid-area: right;
+}
+
+.textSliderWrapper {
+    grid-area: left;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+.slick-dots {
+    text-align: start!important;
+}
+
+.slick-dots li {
+    margin: 0!important;
+}
+
+.slick-dots li>button::before {
+    color: var(--pri-blue)!important;
+    font-size: 8px!important;
+}
+
+.text-center {
+    text-align: justify;
+}
