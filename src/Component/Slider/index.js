@@ -35,61 +35,38 @@ class HeroSlider extends Component {
         return (
             <section className=" sliderSection right-to-left">
                 <div className="textSliderWrapper mb-30">
-                    <header className="heading mb-40 fs-28 fs-lg-40 fw-bold">
-                        Lorem ipsum dolor
-                    </header>
                     <Slider
                         asNavFor={this.state.nav2}
                         ref={slider => (this.slider1 = slider)}
                         {...textSettings} {...commonSettings}>
                         <div className="mb-30">
-                            <h1 className="mb-20">Lorem Ipsum</h1>
+                            <h1 className="fw-300 mb-20 fs-24 fs-lg-32">Customer complaints</h1>
                             <p className="text-justify ls-1 lh-1-33">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy
+                            App based complaints redressal system for customers
                         </p>
                         </div>
                         <div className="mb-30">
-                            <h1 className="mb-20">Lorem Ipsum</h1>
+                            <h1 className="fw-300 mb-20 fs-24 fs-lg-32">Online payments</h1>
                             <p className="text-justify ls-1 lh-1-33">
-                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy
+                            Subscription based online payments and tracking system
                         </p>
                         </div>
                         <div className="mb-30">
-                            <h1 className="mb-20">Lorem Ipsum</h1>
+                            <h1 className="fw-300 mb-20 fs-24 fs-lg-32">Process visibility</h1>
                             <p className="text-justify ls-1 lh-1-33">
-                                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy
+                            Complete visibility of people, vehicles and process in waste supply chain
                         </p>
                         </div>
                         <div className="mb-30">
-                            <h1 className="mb-20">Lorem Ipsum</h1>
+                            <h1 className="fw-300 mb-20 fs-24 fs-lg-32">Capacity building</h1>
                             <p className="text-justify ls-1 lh-1-33">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy
+                            Training of personnel to revamp on ground execution and improve quality
                         </p>
                         </div>
                         <div className="mb-30">
-                            <h1 className="mb-20">Lorem Ipsum</h1>
+                            <h1 className="mb-20">Public awareness</h1>
                             <p className="text-justify ls-1 lh-1-33">
-                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy
-                        </p>
-                        </div>
-                        <div className="mb-30">
-                            <h1 className="mb-20">Lorem Ipsum</h1>
-                            <p className="text-justify ls-1 lh-1-33">
-                                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy
+                            Public awareness around source segregation and their participation in campaigns in the city.
                         </p>
                         </div>
                     </Slider>
