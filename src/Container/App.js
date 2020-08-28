@@ -3,6 +3,7 @@ import './App.css';
 import Nav from '../Component/Nav';
 import '../Assets/typography.css';
 import HeroSlider from '../Component/Slider';
+import WhyD2D from '../Component/WhyD2D';
 
 class App extends Component {
   state = {
@@ -15,7 +16,8 @@ class App extends Component {
     return (
       <div className="App">
         <Nav handleMenu={this.menuHandler} isMenuClicked={this.state.isMenuClicked} />
-        <HeroSlider alignment='right-to-left'/>
+        <HeroSlider />
+        <WhyD2D/>
       </div>
     );
   }

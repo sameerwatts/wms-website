@@ -1,0 +1,38 @@
+.buttonStyleBasic {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 15px 15px;
+  min-width: 168px;
+  cursor: pointer;
+}
+
+.buttonStyleBasic:disabled {
+  background-color: #40a8f9d4;
+  cursor: progress;
+}
+
+.buttonWide {
+  width: 100%;
+}
+
+.buttonTextWhite {
+  color: #ffffff;
+}
+
+.bg-blue {
+  background-color: var(--pri-blue);
+}
+
+.buttonTextBlue {
+  color: var(--pri-blue);
+  border: var(--pri-blue);
+  background-color: #ffffff;
+  border: 1px solid var(--pri-blue);
+}
+
+@media only screen and (min-width: 767px) {
+  .buttonWide {
+    width: 400px;
+  }
+}

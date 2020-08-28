@@ -4,6 +4,10 @@
   font-weight: lighter !important;
 }
 
+.fw-300 {
+  font-weight: 300;
+}
+
 .fw-normal {
   font-weight: normal !important;
 }

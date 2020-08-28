@@ -1,22 +1,23 @@
-.sectionWrapper {
-    width: 95%;
+/* .sectionWrapper {
     overflow-y: scroll;
     overflow-x: hidden;
     height: auto;
-    margin: 0 auto;
 }
+
+.sectionInnerWrapper {
+    width: 95%;
+    margin: 0 auto;
+} */
 
 .right-to-left {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-    grid-template-rows: 1fr 1fr;
     grid-template-areas: "right right" "left left";
 }
 
 .left-to-right {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-    grid-template-rows: 1fr 1fr;
     grid-template-areas: "left left" "right right";
 }
 

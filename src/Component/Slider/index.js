@@ -34,7 +34,7 @@ class HeroSlider extends Component {
             dots: false,
         }
         return (
-            <SectionWrapper alignment="right-to-left">
+            <section className=" sliderSection right-to-left">
                 <div className="textSliderWrapper mb-30">
                     <header className="heading mb-40 fs-28 fs-lg-40 fw-bold">
                         Lorem ipsum dolor
@@ -45,7 +45,7 @@ class HeroSlider extends Component {
                         {...textSettings} {...commonSettings}>
                         <div className="mb-30">
                             <h1 className="mb-20">Lorem Ipsum</h1>
-                            <p className="text-justify">
+                            <p className="text-justify ls-1 lh-1-33">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -54,7 +54,7 @@ class HeroSlider extends Component {
                         </div>
                         <div className="mb-30">
                             <h1 className="mb-20">Lorem Ipsum</h1>
-                            <p className="text-justify">
+                            <p className="text-justify ls-1 lh-1-33">
                                 text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy
@@ -62,7 +62,7 @@ class HeroSlider extends Component {
                         </div>
                         <div className="mb-30">
                             <h1 className="mb-20">Lorem Ipsum</h1>
-                            <p className="text-justify">
+                            <p className="text-justify ls-1 lh-1-33">
                                 remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy
@@ -70,7 +70,7 @@ class HeroSlider extends Component {
                         </div>
                         <div className="mb-30">
                             <h1 className="mb-20">Lorem Ipsum</h1>
-                            <p className="text-justify">
+                            <p className="text-justify ls-1 lh-1-33">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -79,7 +79,7 @@ class HeroSlider extends Component {
                         </div>
                         <div className="mb-30">
                             <h1 className="mb-20">Lorem Ipsum</h1>
-                            <p className="text-justify">
+                            <p className="text-justify ls-1 lh-1-33">
                                 text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy
@@ -87,7 +87,7 @@ class HeroSlider extends Component {
                         </div>
                         <div className="mb-30">
                             <h1 className="mb-20">Lorem Ipsum</h1>
-                            <p className="text-justify">
+                            <p className="text-justify ls-1 lh-1-33">
                                 remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy
@@ -120,7 +120,7 @@ class HeroSlider extends Component {
                         </div>
                     </Slider>
                 </div>
-            </SectionWrapper>
+            </section>
         );
     }
 };
