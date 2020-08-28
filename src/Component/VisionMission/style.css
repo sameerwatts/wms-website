@@ -1,0 +1,44 @@
+.visionmissionSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left left" "right right";
+}
+
+.visionmissionSection img {
+    height: 130px;
+}
+
+.visionHeading, .missionHeading {
+    margin: 10px 0px;
+}
+
+.visionImageContainer, .missionImageContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 5%;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+.visionImageContainer {
+    grid-area: left;
+    background-color: var(--ter-grey);
+}
+
+.visionImageContainer .visionContent, .missionImageContainer .missionContent {
+    text-align: justify;
+}
+
+.missionImageContainer {
+    grid-area: right;
+}
+
+@media only screen and (min-width: 1024px) {
+    .visionmissionSection {
+        grid-template-areas: "left right" "left right";
+    }
+    .visionImageContainer, .missionImageContainer {
+        padding: 30px 20%;
+    }
+}
