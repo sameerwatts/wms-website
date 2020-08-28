@@ -4,6 +4,7 @@ import Nav from '../Component/Nav';
 import '../Assets/typography.css';
 import HeroSlider from '../Component/Slider';
 import WhyD2D from '../Component/WhyD2D';
+import Technologies from '../Component/Technologies';
 
 class App extends Component {
   state = {
@@ -18,6 +19,7 @@ class App extends Component {
         <Nav handleMenu={this.menuHandler} isMenuClicked={this.state.isMenuClicked} />
         <HeroSlider />
         <WhyD2D/>
+        <Technologies />
       </div>
     );
   }
