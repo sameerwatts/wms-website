@@ -12,11 +12,11 @@ const WhyD2D = props => {
     return (
         <section className="whyD2DSection">
             <div className="whyD2DWrapper">
-                <h1 className="sectionHeading fw-300 mb-20 fs-32">Why Door to Dumps?</h1>
+                <h1 className="sectionHeading fw-300 mb-20  fs-24 fs-lg-32">Why Door to Dumps?</h1>
                 <p className="sectionContent fs-16 mb-20 fw-300 ls-1 lh-1-33">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                India is urbanizing rapidly and its 1.3 billion citizens are currently generating 277.1 million tonnes of Municipal Solid Waste annually which is anticipated to grow at 7-7.5% and reach ~400 million tonnes by 2025
                 </p>
-                
+                <p className ='sectionContent fs-16 mb-20 fw-300 ls-1 lh-1-33'>One alarming spillover of India’s remarkable growth story is the fact that its growing population, coupled with rapid urbanization and industrialization, has resulted in spiraling levels of civic and industrial waste being generated. Although an average person generates 0.75 kg of solid waste per day, the volume is huge compared to the population of India.</p>
                 <Button btnText="Read More" className="buttonTextWhite bg-blue" click={readmoreHandler}/>
             </div>
             <div className="mobileImageContainer">
