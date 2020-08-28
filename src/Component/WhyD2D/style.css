@@ -1,0 +1,60 @@
+.whyD2DSection {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    grid-template-areas: "left left" "right right";
+    padding: 40px 0px;
+}
+
+.cardHeadings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.whyD2DWrapper {
+    background-color: var(--ter-grey);
+    min-height: 200px;
+    grid-area: left;
+    padding: 20px 20px;
+}
+
+.sectionContent {
+    text-align: justify;
+}
+
+.sectionHeading {
+    color: var(--pri-blue);
+}
+
+.mobileImageContainer {
+    grid-area: right;
+    text-align: center;
+    background-color: #e1dfdf;
+    padding: 20px 0px;
+}
+
+.mobileImageContainer img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    .sectionContent {
+        text-align: left;
+    }
+    .whyD2DSection {
+        grid-template-areas: "left right" "left right";
+    }
+    .whyD2DWrapper {
+        padding: 20px 30px;
+    }
+}

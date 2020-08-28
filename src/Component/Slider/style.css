@@ -23,6 +23,28 @@
     font-size: 8px!important;
 }
 
-.text-center {
+.text-justify {
     text-align: justify;
+}
+
+.sliderSection {
+    width: 86%;
+    margin: 35px auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    grid-template-areas: "right right" "left left";
+}
+
+@media only screen and (min-width: 768px) {
+    .sliderSection {
+        grid-template-areas: "left right" "left right";
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .sliderSection {
+        grid-template-areas: "left right" "left right";
+        width: 95%;
+    }
 }
