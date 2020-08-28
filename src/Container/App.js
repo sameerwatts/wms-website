@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Nav from '../Component/Nav';
-import '../Assets/typography.css';
+import '../assets/typography.css';
 import HeroSlider from '../Component/Slider';
 import WhyD2D from '../Component/WhyD2D';
 import Technologies from '../Component/Technologies';

@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
 import "./style.css";
-import SectionWrapper from '../SectionWrapper';
-import banner1 from "../../Assets/Images/banner.svg";
+import banner1 from "../../assets/Images/banner.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

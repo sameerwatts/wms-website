@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Button from '../Buttons/Button';
 import './style.css';
-import recycleImg from "../../Assets/Images/recycle.svg";
+import recycleImg from "../../assets/Images/recycle.svg";
 import Technologiesreadmore from './Technologiesreadmore';
 
 const Technologies = props => {
