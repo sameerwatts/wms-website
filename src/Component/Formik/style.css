@@ -1,0 +1,45 @@
+input[type="text"].customInput, input[type="email"].customInput, textarea.customInput {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid rgb(182, 182, 182);
+    font-family: inherit;
+}
+
+.form-control {
+    position: relative;
+}
+
+.form-control.name {
+    grid-area: name;
+}
+
+.form-control.email {
+    grid-area: email;
+}
+
+.form-control.message {
+    grid-area: message;
+}
+
+input[type="text"].customInput:focus, input[type="email"].customInput:focus, textarea.customInput:focus {
+    border: 1px solid var(--pri-blue) !important;
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+input[type="text"].customInput::placeholder, input[type="email"].customInput::placeholder, textarea.customInput::placeholder {
+    color: #acacac;
+}
+
+input[type="text"].customInput:focus::placeholder, input[type="email"].customInput:focus::placeholder, textarea.customInput:focus::placeholder {
+    color: #000;
+}
+
+@media only screen and (min-width: 767px) {
+    /* input[type="text"].customInput, input[type="email"].customInput {
+        width: 45%;
+    } */
+}

@@ -6,6 +6,21 @@
     grid-template-areas: 'content content' 'form form' 'footer footer' 'copyrights copyrights';
 }
 
+.formContainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'name name' 'email email' 'message message' 'button button';
+}
+
+.error {
+    position: absolute;
+    bottom: -13px;
+    color: red;
+    text-align: left;
+    font-size: 12px;
+}
+
 .logoContainer {
     width: 90px;
 }
@@ -31,6 +46,7 @@
 }
 
 .footerForm {
+    padding: 20px;
     grid-area: form;
 }
 
@@ -56,11 +72,17 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    .formContainer {
+        grid-template-areas: 'name email' 'message message' 'button button';
+    }
     .footerContent {
         padding: 10px 0 10px 30px;
     }
     .footerWrapper {
         grid-template-areas: 'content form' 'content form' 'footer footer' 'copyrights copyrights';
+    }
+    .footerForm {
+        padding: 20px 40px 20px 20px;
     }
     .content {
         text-align: left;

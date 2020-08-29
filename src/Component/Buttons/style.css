@@ -12,8 +12,8 @@
   cursor: progress;
 }
 
-.buttonWide {
-  width: 100%;
+.buttonArea {
+  grid-area: button;
 }
 
 .buttonTextWhite {
@@ -29,10 +29,4 @@
   border: var(--pri-blue);
   background-color: #ffffff;
   border: 1px solid var(--pri-blue);
-}
-
-@media only screen and (min-width: 767px) {
-  .buttonWide {
-    width: 400px;
-  }
 }
