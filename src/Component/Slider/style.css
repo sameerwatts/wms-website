@@ -3,15 +3,17 @@
 }
 
 .textSliderWrapper {
+    position: relative;
     grid-area: left;
 }
 
-.heading {
-    margin-bottom: 40px;
+.textSliderWrapper .slick-slider {
+    position: unset!important;
 }
 
 .slick-dots {
     text-align: start!important;
+    bottom: 0px!important;
 }
 
 .slick-dots li {

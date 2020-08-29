@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Button from '../Buttons/Button';
 import './style.css';
-import mobileImg from "../../Assets/Images/mobile.svg";
+import mobileImg from "../../assets/Images/mobile.png";
 import WhyD2Dreadmore from './WhyD2Dreadmore';
 
 const WhyD2D = props => {

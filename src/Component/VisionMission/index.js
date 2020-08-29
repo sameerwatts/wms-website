@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
-import visionImg from "../../Assets/Images/vision.svg";
-import missionImg from "../../Assets/Images/mission.svg";
+import visionImg from "../../assets/Images/vision.svg";
+import missionImg from "../../assets/Images/mission.svg";
 
 const VisionMission = () => {
     return (
