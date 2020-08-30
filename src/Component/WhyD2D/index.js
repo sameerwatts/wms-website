@@ -10,7 +10,7 @@ const WhyD2D = props => {
         isClicked(!clicked);
     }
     return (
-        <section className="whyD2DSection">
+        <section className="whyD2DSection" id="about">
             <div className="whyD2DWrapper">
                 <h1 className="sectionHeading fw-300 mb-20  fs-24 fs-lg-32">Why Door to Dumps?</h1>
                 <p className="sectionContent fs-16 mb-20 fw-300 ls-1 lh-1-33">

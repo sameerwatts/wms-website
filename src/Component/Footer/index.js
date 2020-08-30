@@ -46,13 +46,13 @@ const Footer = (props) => {
                         </p>
                     </div>
                     <div className="socialLinks">
-                        <a href="/">
+                        <a href="https://twitter.com/DoorToDumps">
                             <img src={twitterImg} alt="twitter" />
                         </a>
-                        <a href="/">
+                        <a href="https://www.facebook.com/Door-to-Dumps-Private-Limited-101633881631389/">
                             <img src={facebookImg} alt="facebook" />
                         </a>
-                        <a href="/">
+                        <a href="https://www.linkedin.com/in/door-to-dumps-private-limited-3954411b2/">
                             <img src={linkdinImg} alt="linkdin" />
                         </a>
                         <a href="/">

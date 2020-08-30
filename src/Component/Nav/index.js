@@ -14,13 +14,13 @@ const Nav = (props) => {
                     </a>
                     <ul className="navbar-header">
                         <li className="navbar__list-item">
-                            <a className="navbar__link fs-22" href="/">Home</a>
+                            <a className="navbar__link fs-22" href="#">Home</a>
                         </li>
                         <li className="navbar__list-item">
-                            <a className="navbar__link fs-22" href="/">About us</a>
+                            <a className="navbar__link fs-22" href="#about">About us</a>
                         </li>
                         <li className="navbar__list-item">
-                            <a className="navbar__link fs-22" href="/">Team</a>
+                            <a className="navbar__link fs-22" href="#features">Feature</a>
                         </li>
                         <li className="navbar__list-item">
                             <a className="navbar__link fs-22" href="/">Login</a>

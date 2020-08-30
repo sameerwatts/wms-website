@@ -12,7 +12,7 @@ import "./style.css";
 
 const Features = (props) => {
     return (
-        <div className="featuresWrapper">
+        <section className="featuresWrapper" id="features">
             <div className="globeWrapper desktop">
                 <img className="globe" src={globeImg} alt="Globe" />
                 <div className="customersFeaturesHeading">
@@ -54,7 +54,7 @@ const Features = (props) => {
                     <p className="fs-14 fw-300 ls-1 lh-1-33">Complete visibility of end to end hierarchy around work done and waste metrices (App/portal based)</p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
