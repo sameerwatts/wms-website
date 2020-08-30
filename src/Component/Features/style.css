@@ -1,0 +1,120 @@
+.featuresWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* .globeWrapper.desktop {
+    display: none;
+} */
+
+.paymentMode img, .calender img, .alarmSystem img, .complaints img, .geoLocation img, .easyWork img, .attendance img, .visibility img {
+    height: 50px;
+    display: none;
+}
+
+.featuresWrapper .globe {
+    width: 100%;
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .featuresWrapper {
+        margin: 120px auto;
+    }
+    .featuresWrapper .globe {
+        display: block;
+    }
+    .globeWrapper.desktop {
+        display: block;
+        width: 200px;
+        position: relative;
+    }
+    .paymentMode, .calender, .alarmSystem, .complaints, .geoLocation, .easyWork, .attendance, .visibility, .customersFeaturesHeading, .municipalFeaturesHeading {
+        display: flex;
+        position: absolute;
+        width: 400px;
+        align-items: center;
+    }
+    .paymentMode img, .calender img, .alarmSystem img, .complaints img, .geoLocation img, .easyWork img, .attendance img, .visibility img {
+        display: block;
+    }
+    .customersFeaturesHeading {
+        top: -90px;
+        left: -415px;
+    }
+    .paymentMode {
+        top: -40px;
+        left: -400px;
+    }
+    .calender {
+        top: 30px;
+        left: -415px;
+    }
+    .alarmSystem {
+        top: 100px;
+        left: -415px;
+    }
+    .complaints {
+        top: 170px;
+        left: -400px;
+    }
+    .municipalFeaturesHeading {
+        top: -90px;
+        right: -415px;
+    }
+    .geoLocation {
+        top: -40px;
+        right: -400px;
+    }
+    .easyWork {
+        top: 30px;
+        right: -415px;
+    }
+    .attendance {
+        top: 100px;
+        right: -415px;
+    }
+    .visibility {
+        top: 170px;
+        right: -400px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .globeWrapper.desktop {
+        width: 250px;
+    }
+    .paymentMode {
+        top: -35px;
+        left: -400px;
+    }
+    .calender {
+        top: 45px;
+        left: -425px;
+    }
+    .alarmSystem {
+        top: 125px;
+        left: -425px;
+    }
+    .complaints {
+        top: 205px;
+        left: -400px;
+    }
+    .geoLocation {
+        top: -35px;
+        right: -400px;
+    }
+    .easyWork {
+        top: 45px;
+        right: -425px;
+    }
+    .attendance {
+        top: 125px;
+        right: -425px;
+    }
+    .visibility {
+        top: 205px;
+        right: -400px;
+    }
+}

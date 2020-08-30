@@ -7,6 +7,7 @@ import WhyD2D from '../Component/WhyD2D';
 import Technologies from '../Component/Technologies';
 import VisionMission from '../Component/VisionMission';
 import Footer from '../Component/Footer';
+import Features from '../Component/Features';
 
 class App extends Component {
   state = {
@@ -21,6 +22,7 @@ class App extends Component {
         <Nav handleMenu={this.menuHandler} isMenuClicked={this.state.isMenuClicked} />
         <HeroSlider />
         <WhyD2D/>
+        <Features />
         <Technologies />
         <VisionMission />
         <Footer />
