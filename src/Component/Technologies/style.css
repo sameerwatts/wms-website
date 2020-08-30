@@ -4,10 +4,6 @@
     grid-template-areas: "right right" "left left";
 }
 
-.outerSection {
-    margin: 30px auto 0px auto;
-}
-
 .outerSection>h2 {
     text-align: center;
     margin-bottom: 30px;
